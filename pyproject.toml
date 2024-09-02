@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nff-speech-summary"
+version = "0.1.0"
+description = ""
+authors = ["Sander Nordeide <nordeidesander@gmail.com>, Anders Vandvik <anders.vandvik@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.43.0"
+python-dotenv = "^1.0.1"
+ipykernel = "^6.29.5"
+streamlit = "^1.38.0"
+audio-recorder-streamlit = "^0.0.10"
+scipy = "^1.14.1"
+soundfile = "^0.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
